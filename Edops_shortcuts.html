@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edops ShortCuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 40px 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .tile-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 180px;
+            height: 100px;
+            background: #1976d2;
+            color: #fff;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .tile-btn:hover {
+            background: #1565c0;
+            transform: translateY(-4px) scale(1.04);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="tile-btn" href="https://hyperiondev.com/admin/" target="_blank">Django Admin</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/admin/login_as_user/" target="_blank">Login as Student</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/account/logout/?next=/portal/" target="_blank">Logout - as Student</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/accounts/google/login/?next=%2Fportal%2F?next=/portal/" target="_blank">Sign in with Google</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/admin/moocadmin/student/" target="_blank">Student Object</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/admin/auth/user/" target="_blank">Users</a>
+        <a class="tile-btn" href="https://hyperiondevsupport.zendesk.com/agent/home/tickets" target="_blank">ZenDesk</a>
+        <a class="tile-btn" href="https://www.hyperiondev.com/admin/graduate_dashboard/graduate/" target="_blank">Graduates</a>
+        <a class="tile-btn" href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+    </div>
+</body>
+</html>
